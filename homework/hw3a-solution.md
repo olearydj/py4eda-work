@@ -29,3 +29,19 @@ The three-stage workflow:
 2. **Staging Area**: Where I prepare commits with `git add`
 3. **Repository**: Where commits are permanently stored with `git commit`
 
+## Part 3: GitHub Publishing
+
+Successfully published repository to GitHub:
+
+- Repository URL: `https://github.com/<your-username>/py4eda-work`
+- Used `git remote add origin` to connect local repo to GitHub
+- Used `git push -u origin main` to upload commits
+- Verified all files and commits are visible on GitHub
+
+### The Remote Connection
+
+My local repository is now connected to GitHub:
+- `git remote -v` shows the remote URL
+- `git push` will send my commits to GitHub
+- `git pull` will get updates from GitHub (if changes are made on GitHub)
+
